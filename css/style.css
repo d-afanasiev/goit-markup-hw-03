@@ -1,0 +1,172 @@
+:root {
+  --color-link: #2196F3;
+  --color-logo: #000000;
+  --color-main: #212121;
+  --color-secondary: #757575;
+  --color-hero: #ffffff;
+  --color-button: #F5F4FA;
+}
+
+.list {
+  list-style: none;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  line-height: 1.2;
+  background-color: var(--color-hero);
+}
+
+/* Color */
+
+.color-logo {
+  color: var(--color-logo);
+}
+
+.color-link, .link-active:hover, .link-active:focus {
+  color: var(--color-link);
+}
+
+.color-secondary {
+  color: var(--color-secondary);
+}
+
+.color-main {
+  color: var(--color-main);
+}
+
+.color-hero {
+  color: var(--color-hero);
+}
+
+/* Logo */
+
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  text-decoration: none;
+}
+
+/* Nav */
+
+.nav-link, .contacts-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+
+/* Hero */
+
+.hero {
+  background-color: #2F303A;
+}
+
+.hero-text {
+  text-decoration: none;
+}
+
+/* Advantages */
+
+.advantages-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.advantages-text, .address {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+
+/* Section title */
+
+.title-section {
+  font-weight: 700;
+  font-size: 36px;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+/* Teams */
+
+.section-teams {
+  background-color: #F5F4FA;
+}
+
+.teams-title {
+  font-weight: 500;
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.teams-text {
+  font-weight: 400;
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+/* Footer */
+
+.footer {
+  background-color: #2F303A;
+}
+
+.address-color {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+/* Hidden h2 */
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+/* Portfolio */
+
+.list-button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.list-button:hover, .list-button:focus {
+  cursor: pointer;
+  background-color: var(--color-link);
+  color: var(--color-hero);
+}
+
+.list-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.list-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.03em;
+}
