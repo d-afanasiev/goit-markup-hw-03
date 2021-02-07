@@ -9,12 +9,26 @@
 
 .list {
   list-style: none;
+  margin: 0;
+  padding-left: 0;
 }
 
 body {
   font-family: "Roboto", sans-serif;
   line-height: 1.2;
   background-color: var(--color-hero);
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 /* Color */
@@ -62,10 +76,22 @@ body {
 
 .hero {
   background-color: #2F303A;
+  text-align: center;
 }
 
-.hero-text {
+.hero-link {
+  display: inline-block;
+  padding: 10px 32px;
   text-decoration: none;
+  background-color: var(--color-link);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}
+
+.hero-title {
+  text-transform: uppercase;
+  margin-top: 0;
+  margin-bottom: 30px;
 }
 
 /* Advantages */
@@ -76,6 +102,8 @@ body {
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  margin-top: 0;
+  margin-bottom: 10px;
 }
 
 .advantages-text, .address {
@@ -85,6 +113,17 @@ body {
   letter-spacing: 0.03em;
 }
 
+.advantages-text {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+/* Projects */
+
+.projects.section {
+  padding-top: 0;
+}
+
 /* Section title */
 
 .title-section {
@@ -92,6 +131,8 @@ body {
   font-size: 36px;
   text-align: center;
   letter-spacing: 0.03em;
+  margin-top: 0;
+  margin-bottom: 50px;
 }
 
 /* Teams */
@@ -100,11 +141,17 @@ body {
   background-color: #F5F4FA;
 }
 
+.list-img {
+  margin-bottom: 30px;
+}
+
 .teams-title {
   font-weight: 500;
   font-size: 16px;
   text-align: center;
   letter-spacing: 0.03em;
+  margin-top: 0;
+  margin-bottom: 10px;
 }
 
 .teams-text {
@@ -112,17 +159,29 @@ body {
   font-size: 16px;
   text-align: center;
   letter-spacing: 0.03em;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 /* Footer */
 
 .footer {
   background-color: #2F303A;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.address {
+  margin-top: 20px;
 }
 
 .address-color {
   text-decoration: none;
   color: rgba(255, 255, 255, 0.6);
+}
+
+.address-item {
+  margin-bottom: 9px;
 }
 
 /* Hidden h2 */
