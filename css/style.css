@@ -5,6 +5,9 @@
   --color-secondary: #757575;
   --color-hero: #ffffff;
   --color-button: #F5F4FA;
+  --bg-hero: #2F303A;
+  --bg-section: #F5F4FA;
+  --bg-footer: #2F303A;
 }
 
 .list {
@@ -75,7 +78,7 @@ body {
 /* Hero */
 
 .hero {
-  background-color: #2F303A;
+  background-color: var(--bg-hero);
   text-align: center;
 }
 
@@ -139,7 +142,7 @@ body {
 /* Teams */
 
 .section-teams {
-  background-color: #F5F4FA;
+  background-color: var(--bg-section);
 }
 
 .list-img {
@@ -167,7 +170,7 @@ body {
 /* Footer */
 
 .footer {
-  background-color: #2F303A;
+  background-color: var(--bg-footer);
   padding-top: 60px;
   padding-bottom: 60px;
 }
