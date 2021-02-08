@@ -12,27 +12,27 @@
 <body>
     <header>
         <div class="container">
-            <nav>
+            <nav class="nav-container">
                 <a href="./index.html" class="logo color-logo">
                     <span class="color-link">Web</span>Studio
                 </a>
                 <ul class="nav list">
-                    <li>
+                    <li class="nav-item">
                         <a href="./index.html" class="nav-link color-main link-active">Студия</a>
                     </li>
-                    <li>
+                    <li class="nav-item">
                         <a href="./portfolio.html" class="nav-link color-main link-active">Портфолио</a>
                     </li>
-                    <li>
+                    <li class="nav-item">
                         <a href="" class="nav-link color-main link-active">Контакты</a>
                     </li>
                 </ul>
             </nav>    
             <ul class="contacts list">
-                <li>
+                <li class="contacts-item">
                     <a href="mailto:info@devstudio.com" class="contacts-link link-active color-secondary">info@devstudio.com</a>
                 </li>
-                <li>
+                <li class="contacts-item">
                     <a href="tel:+380961111111" class="contacts-link link-active color-secondary">+38 096 111 11 11</a>
                 </li>
             </ul>
@@ -49,19 +49,19 @@
             <div class="container">
                 <h2 class="visually-hidden">Преимущества работы с нами</h2>
                 <ul class="advantages list">
-                    <li>
+                    <li class="advantages-item">
                         <h3 class="advantages-title color-main">Внимание к деталям</h3>
                         <p class="advantages-text color-secondary">Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
                     </li>
-                    <li>
+                    <li class="advantages-item">
                         <h3 class="advantages-title color-main">Пунктуальность</h3>
                         <p class="advantages-text color-secondary">Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
                     </li>
-                    <li>
+                    <li class="advantages-item">
                         <h3 class="advantages-title color-main">Планирование</h3>
                         <p class="advantages-text color-secondary">Равным образом консультация с широким активом в значительной степени обуславливает.</p>
                     </li>
-                    <li>
+                    <li class="advantages-item">
                         <h3 class="advantages-title color-main">Современные технологии</h3>
                         <p class="advantages-text color-secondary">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
                     </li>
@@ -71,9 +71,11 @@
         <section class="projects section">
             <div class="container">
                 <h2 class="title-section color-main">Чем мы занимаемся</h2>
-                <img src="./images/tabl.jpg" alt="На фотографии планшет" width="370" height="294">
-                <img src="./images/tel.jpg" alt="На фотографии телефон" width="370" height="294">
-                <img src="./images/tabl2.jpg" alt="На фотографии компьютер и телефон" width="370" height="294">
+                <div class="project-container">
+                    <img src="./images/tabl.jpg" alt="На фотографии планшет" width="370" height="294" class="projects-img">
+                    <img src="./images/tel.jpg" alt="На фотографии телефон" width="370" height="294" class="projects-img">
+                    <img src="./images/tabl2.jpg" alt="На фотографии компьютер и телефон" width="370" height="294" class="projects-img">
+                </div>
             </div>
         </section>
         <section class="section-teams section">
@@ -85,22 +87,16 @@
                         <h3 class="color-main teams-title">Игорь Демьяненко</h3>
                         <p class="color-secondary teams-text">Product Designer</p>
                     </li>
-                </ul>
-                <ul class="list">
                     <li>
                         <img src="./images/dev.jpg" alt="На фотографии Ольга Репина" width="270" height="260" class="list-img">
                         <h3 class="color-main teams-title">Ольга Репина</h3>
                         <p class="color-secondary teams-text">Frontend Developer</p>
                     </li>
-                </ul>
-                <ul class="list">
                     <li>
                         <img src="./images/mark.jpg" alt="На фотографии Николай Тарасов" width="270" height="260" class="list-img">
                         <h3 class="color-main teams-title">Николай Тарасов</h3>
                         <p class="color-secondary teams-text">Marketing</p>
                     </li>
-                </ul>
-                <ul class="list">
                     <li>
                         <img src="./images/ui.jpg" alt="На фотографии Михаил Ермаков" width="270" height="260" class="list-img">
                         <h3 class="color-main teams-title">Михаил Ермаков</h3>
