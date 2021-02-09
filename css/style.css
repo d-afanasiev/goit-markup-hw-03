@@ -67,7 +67,7 @@ body {
 
 /* Nav */
 
-header .container, .nav-container, .nav, .contacts, .advantages, .project-container, .teams, .filter {
+.flex {
   display: flex;
 }
 
