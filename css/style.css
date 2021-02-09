@@ -4,7 +4,6 @@
   --color-main: #212121;
   --color-secondary: #757575;
   --color-hero: #ffffff;
-  --color-button: #F5F4FA;
   --bg-hero: #2F303A;
   --bg-section: #F5F4FA;
   --bg-footer: #2F303A;
@@ -272,6 +271,7 @@ header .container, .nav-container {
 /* Portfolio */
 
 .list-button {
+  font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.63;
@@ -279,7 +279,9 @@ header .container, .nav-container {
   letter-spacing: 0.03em;
   padding: 6px 22px;
   border: 0px solid transparent;
+  outline: transparent;
   border-radius: 4px;
+  background-color: var(--bg-section);
 }
 
 .list-button:hover, .list-button:focus {
