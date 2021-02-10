@@ -145,7 +145,7 @@ body {
 /* Advantages */
 
 .advantages-item {
-  width: 270px;
+  width: calc((100% - 60px) / 3);
   margin-right: 30px;
 }
 
@@ -217,7 +217,7 @@ body {
 }
 
 .teams-items {
-  width: 270px;
+  width: calc((100% - 90px) / 4);
   background: var(--color-hero);
   margin-right: 30px;
 }
@@ -348,7 +348,7 @@ body {
 }
 
 .list-item {
-  width: 370px;
+  width: calc((100% - 60px) / 3);
   margin-right: 30px;
   margin-bottom: 30px;
 }
