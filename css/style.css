@@ -70,8 +70,12 @@ body {
   display: flex;
 }
 
-header .container, .nav-container {
+.header .container, .nav-container {
   align-items: center;
+}
+
+.header .container {
+  min-height: 80px;
 }
 
 .contacts {
@@ -88,8 +92,6 @@ header .container, .nav-container {
 
 .nav-link {
   display: block;
-  padding-top: 32px;
-  padding-bottom: 32px;
 }
 
 .nav-container .logo {
@@ -113,6 +115,13 @@ header .container, .nav-container {
 .hero {
   background-color: var(--bg-hero);
   text-align: center;
+  min-height: 600px;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-container {
+  width: 646px;
 }
 
 .hero-link {
@@ -125,6 +134,9 @@ header .container, .nav-container {
 }
 
 .hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
   text-transform: uppercase;
   margin-top: 0;
   margin-bottom: 30px;
@@ -205,6 +217,7 @@ header .container, .nav-container {
 }
 
 .teams-items {
+  width: 270px;
   background: var(--color-hero);
   margin-right: 30px;
 }
